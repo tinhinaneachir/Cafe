@@ -36,6 +36,28 @@ p {
   margin-bottom: 20px;
 }
 
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chip {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+}
+
+.chip-purple {
+  background: #be418c;
+}
+
+.chip-brown {
+  background: #8c5e24;
+}
+
 .separator {
   margin: 20px auto;
   height: 10px;
@@ -168,7 +190,7 @@ p {
 /* reservation */
 
 .reservation {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0px;
   text-align: center;
 }
 
@@ -183,4 +205,25 @@ footer {
 
 footer p {
   margin-bottom: 0px;
+}
+
+/* where */
+
+.where {
+  padding: 180px 0;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 100px;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.where-text {
+  float: right;
+  width: 50%;
 }
