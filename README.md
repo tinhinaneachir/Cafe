@@ -21,5 +21,4 @@ Ce projet est un site vitrine développé avec **HTML** et **CSS** pour présent
 
 1. **Cloner le projet** :
    ```bash
-   git clone https://github.com/votre-utilisateur/cafe-parisien.git
-   cd cafe-parisien
+   https://github.com/tinhinaneachir/Cafe.git
