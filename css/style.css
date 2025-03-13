@@ -143,8 +143,7 @@ p {
 /* value proposition */
 .vp {
   height: 700px;
-  background: url(https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project1/cafe1.jpg)
-    center center;
+  background: url(/image/cafe1.jpg) center center;
   background-size: cover;
   text-align: center;
 }
@@ -183,8 +182,8 @@ p {
 
 .person {
   height: 400px;
-  background: url(https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project1/cafe3.jpg)
-    center center/cover;
+  background: url(/image/cafe4.jpg) center center/cover;
+  background-size: contain;
 }
 
 /* reservation */
@@ -217,7 +216,6 @@ footer p {
 
 .where-img {
   float: left;
-  width: 100px;
   width: 45%;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -226,4 +224,36 @@ footer p {
 .where-text {
   float: right;
   width: 50%;
+}
+
+/* ... */
+
+/* contact */
+
+.contact {
+  padding: 180px 0px 100px 0px;
+  min-height: 100vh;
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form-container form label {
+  display: block;
+  font-weight: 700;
+}
+
+.contact-form-container form input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.contact-form-container form textarea {
+  min-height: 80px;
 }
