@@ -181,9 +181,17 @@ p {
 /* person */
 
 .person {
-  height: 400px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  align-items: center;
+  display: block;
+  margin: auto;
+
   background: url(/image/cafe4.jpg) center center/cover;
-  background-size: contain;
 }
 
 /* reservation */
